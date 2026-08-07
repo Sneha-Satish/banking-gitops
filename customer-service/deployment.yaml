@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: customer-service
-          image: snehasatish/customer-service:9
+          image: snehasatish/customer-service:latest
           imagePullPolicy: Always
 
           ports:
